@@ -60,6 +60,11 @@ class ImageStyles extends DrupalSqlBase {
     }
 
     $row->setSourceProperty('effects', $effects);
+
+    // Name may have dashes. We need to turn them to underscores.
+    $name = str_replace('-', '_', $row->getSourceProperty('name'));
+    $row->setSourceProperty('name', $name);
+
     return parent::prepareRow($row);
   }
 
