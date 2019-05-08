@@ -6,3 +6,4 @@
 * [Issue #3017054 patch 10: Remove filter format sorting to simplify config exports](https://www.drupal.org/files/issues/2018-12-03/3017054-14-force-filters-sort.patch)
 * [Issue #3022910 patch 2: Prevent migrated files from having an incorrect value at file_managed.filename](https://www.drupal.org/files/issues/2018-12-28/drupal-file_entity_filename-3022910-1.patch)
 * [Issue #3042223 patch 2: Map text_plain field formatter to string](https://www.drupal.org/files/issues/2019-03-21/drupal-map-text_plain-formatter-3042223-2.patch)
+* [Issue #2995655 patch 19: Invalid translation language (und) specified. in Drupal\Core\Entity\ContentEntityBase when changing language of an entity](https://www.drupal.org/files/issues/2019-01-18/2995655-19.patch)
