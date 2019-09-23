@@ -984,7 +984,7 @@ abstract class ContentEntityStorageBase extends EntityStorageBase implements Con
       'entity_field_info',
     ];
     foreach ($entities as $id => $entity) {
-      $this->cacheBackend->set($this->buildCacheId($id), $entity, CacheBackendInterface::CACHE_PERMANENT, $cache_tags);
+      $this->cacheBackend->set($this->buildCacheId($id), $entity, CacheBackendInterface::CACHE_PERMANENT, array_merge($cache_tags, $entity->getCacheTagsToInvalidate()));
     }
   }
 
