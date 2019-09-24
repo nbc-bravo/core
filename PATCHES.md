@@ -4,3 +4,4 @@
 * [Issue #2998875 patch 1: Map menus when migrating content type settings](https://www.drupal.org/files/issues/2018-09-11/drupal-map_menus_migrate_content_types-2998875-1.patch)
 * [Issue #3017054 patch 10: Remove filter format sorting to simplify config exports](https://www.drupal.org/files/issues/2018-12-03/3017054-14-force-filters-sort.patch)
 * [Issue #3022910 patch 2: Prevent migrated files from having an incorrect value at file_managed.filename](https://www.drupal.org/files/issues/2018-12-28/drupal-file_entity_filename-3022910-1.patch)
+* [Issue #2966607 patch 127: Invalidating 'node_list' and other broad cache tags early in a transaction severely increases lock wait time and probability of deadlock](https://www.drupal.org/files/issues/2019-09-10/2966607-127.patch)
